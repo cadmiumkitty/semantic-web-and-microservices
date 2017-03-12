@@ -1,0 +1,53 @@
+# Semantic Web and Microservices
+
+## Semantic Web London March 2017
+
+This code is from the seventh [Semantic Web London](https://www.meetup.com/semantic-web-london/events/237979906/)
+meetup in March 2016.
+
+## Intro
+
+Central premise of the talk is that Semantic Web standards are a good fit for building microservice-based applications because they promote reuse and, ultimately, reduce the cost of system development and integration.
+
+Specific examples covered in this talk are reuse of the UI components and streamlining of the rule development and management.
+
+## Dependencies
+
+You'll need [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and [Apache Maven 3.3.x](https://maven.apache.org/).
+
+Node and NPM are downloaded as part of the build using [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin).
+
+## Building
+
+```
+mvn clean install
+```
+
+## Running
+
+You'll need to start all services that are developed as part of the ecosystem: Eureka, Config, Zuul, and the actual microservices.
+
+```
+java -jar eureka/target/semantic-web-and-microservices-eureka-1.0.0-SNAPSHOT.jar
+```
+
+## Demo sequence for the talk
+
+ 1. Start the apps
+ 1. Open the web app
+ 1. Open the trade blotter
+ 1. Navigate to trade
+ 1. Navigate to instrument
+ 1. Navigate to client
+ 1. Add client, add instrument, add parameters => infer actions
+
+## Todo
+
+ 1. Project set up - DONE
+ 1. Eureka - DONE
+ 1. Zuul - TODO
+ 1. Config - TODO
+ 1. Client - TODO
+ 1. Instrument - TODO
+ 1. Trade - TODO
+ 1. UI - TODO
