@@ -29,6 +29,7 @@ You'll need to start all services that are developed as part of the ecosystem: E
 
 ```
 java -jar eureka/target/semantic-web-and-microservices-eureka-1.0.0-SNAPSHOT.jar
+java -jar zuul/target/semantic-web-and-microservices-zuul-1.0.0-SNAPSHOT.jar
 ```
 
 ## Demo sequence for the talk
@@ -45,7 +46,7 @@ java -jar eureka/target/semantic-web-and-microservices-eureka-1.0.0-SNAPSHOT.jar
 
  1. Project set up - DONE
  1. Eureka - DONE
- 1. Zuul - TODO
+ 1. Zuul - DONE
  1. Config - TODO
  1. Client - TODO
  1. Instrument - TODO
