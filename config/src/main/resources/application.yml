@@ -1,0 +1,14 @@
+server:
+  port: 50100
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cadmiumkitty/semantic-web-and-microservices-config

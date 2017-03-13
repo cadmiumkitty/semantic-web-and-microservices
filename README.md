@@ -17,6 +17,12 @@ You'll need [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/ind
 
 Node and NPM are downloaded as part of the build using [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin).
 
+## Implementation notes
+
+ 1. This implementation is following http://projects.spring.io/spring-cloud/
+ 1. Config-first approach is used. Location of the configuration server
+ is known to clients, rather than discovered from Eureka discovery service.
+
 ## Building
 
 ```
@@ -47,7 +53,7 @@ java -jar zuul/target/semantic-web-and-microservices-zuul-1.0.0-SNAPSHOT.jar
  1. Project set up - DONE
  1. Eureka - DONE
  1. Zuul - DONE
- 1. Config - TODO
+ 1. Config - DONE
  1. Client - TODO
  1. Instrument - TODO
  1. Trade - TODO
