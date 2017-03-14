@@ -1,0 +1,7 @@
+server:
+  port: 50400
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:50000/eureka

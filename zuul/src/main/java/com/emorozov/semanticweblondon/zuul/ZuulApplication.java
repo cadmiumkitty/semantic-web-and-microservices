@@ -1,4 +1,4 @@
-package com.emorozov.semanticweblondon.examples.ms.zuul;
+package com.emorozov.semanticweblondon.zuul;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

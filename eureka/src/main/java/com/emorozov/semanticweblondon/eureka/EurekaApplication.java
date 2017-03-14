@@ -1,4 +1,4 @@
-package com.emorozov.semanticweblondon.examples.ms.eureka;
+package com.emorozov.semanticweblondon.eureka;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

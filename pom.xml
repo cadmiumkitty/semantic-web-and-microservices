@@ -17,6 +17,7 @@
         <module>config</module>
         <module>eureka</module>
         <module>zuul</module>
+        <module>trades</module>        
     </modules>
 
     <dependencies>
