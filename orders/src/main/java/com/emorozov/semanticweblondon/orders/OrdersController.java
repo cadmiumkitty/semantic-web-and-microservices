@@ -48,7 +48,7 @@ public class OrdersController {
     @RequestMapping(path = "/{orderid}", method = RequestMethod.GET, produces = "application/json")
     public void getTrade(@PathVariable("orderid") String orderid, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
-        String url = String.format("http://localhost:50400/orders/%s", orderid);
+        String url = String.format("http://localhost:50300/orders/%s", orderid);
         StmtIterator iterator = model.listStatements(model.getResource(url), null, (RDFNode)null);
 
         Model orderModel = ModelFactory.createDefaultModel();
