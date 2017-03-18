@@ -34,8 +34,10 @@ mvn clean install
 You'll need to start all services that are developed as part of the ecosystem: Eureka, Config, Zuul, and the actual microservices.
 
 ```
+java -jar eureka/target/semantic-web-and-microservices-config-1.0.0-SNAPSHOT.jar
 java -jar eureka/target/semantic-web-and-microservices-eureka-1.0.0-SNAPSHOT.jar
 java -jar zuul/target/semantic-web-and-microservices-zuul-1.0.0-SNAPSHOT.jar
+java -jar zuul/target/semantic-web-and-microservices-trades-1.0.0-SNAPSHOT.jar
 ```
 
 ## Demo sequence for the talk
@@ -54,7 +56,7 @@ java -jar zuul/target/semantic-web-and-microservices-zuul-1.0.0-SNAPSHOT.jar
  1. Eureka - DONE
  1. Zuul - DONE
  1. Config - DONE
+ 1. Trades - TODO
  1. Client - TODO
  1. Instrument - TODO
- 1. Trade - TODO
  1. UI - TODO

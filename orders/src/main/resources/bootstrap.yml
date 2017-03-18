@@ -3,4 +3,4 @@ spring:
     name: trades
   cloud:
     config:
-      uri: http://localhost:50100
+      uri: http://localhost:50000
