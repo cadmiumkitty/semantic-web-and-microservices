@@ -6,16 +6,16 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix : <http://localhost/orders/> .
+@prefix : <http://localhost:50300/orders/> .
 
-:AAYIAQwBCw8 a fibo:Agreement ;
+:AAYIAQwBCw8 a owl:Thing ;
   rdfs:label "Buy 30.00 VUKE" ;
   rdfs:comment "Buy 30.00 VUKE VANGUARD FUNDS PLC FTSE 100 ETF INC UCITS ETF" .
 
-:DAMJDQkJCQE a fibo:Agreement ;
+:DAMJDQkJCQE a owl:Thing ;
   rdfs:label "Buy 40.00 VUKE" ;
   rdfs:comment "Buy 40.00 VUKE VANGUARD FUNDS PLC FTSE 100 ETF INC UCITS ETF" .
 
-:BgwDCwoDCwk a fibo:Agreement ;
+:BgwDCwoDCwk a owl:Thing ;
   rdfs:label "Buy 50.00 VUKE" ;
   rdfs:comment "Buy 50.00 VUKE VANGUARD FUNDS PLC FTSE 100 ETF INC UCITS ETF" .
