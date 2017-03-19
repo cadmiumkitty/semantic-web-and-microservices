@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.emorozov.semanticweblondon.examples</groupId>
-    <artifactId>semantic-web-and-microservices-orders</artifactId>
+    <artifactId>semantic-web-and-microservices-people</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <parent>

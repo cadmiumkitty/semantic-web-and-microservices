@@ -1,0 +1,19 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix fibo-fbc-fi-fi: <http://www.omg.org/spec/EDMC-FIBO/FBC/FinancialInstruments/FinancialInstruments/> .
+
+@prefix : <http://localhost:50300/instruments/> .
+
+:IE00B810Q511 a fibo-fbc-fi-fi:EquityInstrument ;
+  rdfs:label "VUKE" ;
+  rdfs:comment "Vanguard FTSE 100 UCITS ETF (GBP)" .
+
+:IE00B3RBWM25 a fibo-fbc-fi-fi:EquityInstrument ;
+  rdfs:label "VWRL" ;
+  rdfs:comment "Vanguard FTSE All-World UCITS ETF (GBP)" .

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: orders
+    name: instruments
   cloud:
     config:
       uri: http://localhost:50000

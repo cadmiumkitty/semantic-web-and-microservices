@@ -1,4 +1,4 @@
-package com.emorozov.semanticweblondon.orders;
+package com.emorozov.semanticweblondon.instruments;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -12,16 +12,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.websocket.server.PathParam;
 import java.io.ByteArrayOutputStream;
 
 @Slf4j
 @Controller
-public class OrdersController {
+public class InstrumentsController {
 
     private Model model;
 
-    public OrdersController() throws Exception {
+    public InstrumentsController() throws Exception {
         loadModel();
     }
 
@@ -30,7 +29,7 @@ public class OrdersController {
         log.info("Loading model...");
 
         this.model = ModelFactory.createDefaultModel();
-        this.model.read("data/orders.ttl", Lang.TURTLE.getName());
+        this.model.read("data/instruments.ttl", Lang.TURTLE.getName());
 
         log.info("Done.");
     }
@@ -45,10 +44,10 @@ public class OrdersController {
         }
     }
 
-    @RequestMapping(path = "/{orderid}", method = RequestMethod.GET, produces = "application/json")
-    public void getTrade(@PathVariable("orderid") String orderid, HttpServletRequest request, HttpServletResponse response) throws Exception {
+    @RequestMapping(path = "/{instrumentid}", method = RequestMethod.GET, produces = "application/json")
+    public void getTrade(@PathVariable("instrumentid") String instrumentid, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
-        String url = String.format("http://localhost:50300/orders/%s", orderid);
+        String url = String.format("http://localhost:50300/instruments/%s", instrumentid);
         StmtIterator iterator = model.listStatements(model.getResource(url), null, (RDFNode)null);
 
         Model orderModel = ModelFactory.createDefaultModel();

@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix fibo-fbc-pas-fpas: <http://www.omg.org/spec/EDMC-FIBO/FBC/ProductsAndServices/FinancialProductsAndServices/> .
+@prefix fibo-fnd-rel-rel: <http://www.omg.org/spec/EDMC-FIBO/FND/Relations/Relations/> .
+@prefix fibo-fnd-agr-ctr: <> .
+
+@prefix : <http://localhost:50300/trades/> .
+
+:alpha a fibo-fbc-pas-fpas:Trade ;
+  rdfs:label "Buy 30 VUKE" ;
+  rdfs:comment "Buy 30 VUKE VANGUARD FUNDS PLC FTSE 100 ETF INC UCITS ETF" ;
+  fibo-fnd-agr-ctr:hasCounterparty <http://localhost:50300/people/arthurlewis> ;
+  fibo-fnd-rel-rel:involves <http://localhost:50300/instruments/IE00B810Q511> .
+
+:bravo a fibo-fbc-pas-fpas:Trade ;
+  rdfs:label "Buy 40 VUKE" ;
+  rdfs:comment "Buy 40 VUKE VANGUARD FUNDS PLC FTSE 100 ETF INC UCITS ETF" ;
+  fibo-fnd-agr-ctr:hasCounterparty <http://localhost:50300/people/arthurlewis> ;
+  fibo-fnd-rel-rel:involves <http://localhost:50300/instruments/IE00B810Q511> .
+
+:charlie a fibo-fbc-pas-fpas:Trade ;
+  rdfs:label "Buy 50 VWRL" ;
+  rdfs:comment "Buy 50 VWRL VANGUARD FUNDS PLC FTSE ALL-WORLD UCITS ETF (GBP)" ;
+  fibo-fnd-agr-ctr:hasCounterparty <http://localhost:50300/people/normalewis> ;
+  fibo-fnd-rel-rel:involves <http://localhost:50300/instruments/IE00B3RBWM25> .

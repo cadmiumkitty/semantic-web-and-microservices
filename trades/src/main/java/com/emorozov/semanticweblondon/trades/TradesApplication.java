@@ -1,4 +1,4 @@
-package com.emorozov.semanticweblondon.orders;
+package com.emorozov.semanticweblondon.trades;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -8,9 +8,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableCircuitBreaker
 @EnableDiscoveryClient
-public class OrdersApplication {
+public class TradesApplication {
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(OrdersApplication.class).web(true).run(args);
+        new SpringApplicationBuilder(TradesApplication.class).web(true).run(args);
     }
 }

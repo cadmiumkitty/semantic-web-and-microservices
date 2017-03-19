@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: trades
+  cloud:
+    config:
+      uri: http://localhost:50000
