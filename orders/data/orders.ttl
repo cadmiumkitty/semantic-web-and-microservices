@@ -8,14 +8,14 @@
 
 @prefix : <http://localhost:50300/orders/> .
 
-:AAYIAQwBCw8 a owl:Thing ;
+:alpha a owl:Thing ;
   rdfs:label "Buy 30.00 VUKE" ;
   rdfs:comment "Buy 30.00 VUKE VANGUARD FUNDS PLC FTSE 100 ETF INC UCITS ETF" .
 
-:DAMJDQkJCQE a owl:Thing ;
+:bravo a owl:Thing ;
   rdfs:label "Buy 40.00 VUKE" ;
   rdfs:comment "Buy 40.00 VUKE VANGUARD FUNDS PLC FTSE 100 ETF INC UCITS ETF" .
 
-:BgwDCwoDCwk a owl:Thing ;
+:charlie a owl:Thing ;
   rdfs:label "Buy 50.00 VUKE" ;
   rdfs:comment "Buy 50.00 VUKE VANGUARD FUNDS PLC FTSE 100 ETF INC UCITS ETF" .
