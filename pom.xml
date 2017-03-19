@@ -20,6 +20,7 @@
         <module>trades</module>
         <module>people</module>
         <module>instruments</module>
+        <module>ui</module>
     </modules>
 
     <dependencies>
