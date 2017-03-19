@@ -1,6 +1,13 @@
 server:
   port: 50200
 
+zuul:
+  routes:
+    ui:
+      path: /**
+      serviceId: ui
+      stripPrefix: true
+
 eureka:
   client:
     serviceUrl:

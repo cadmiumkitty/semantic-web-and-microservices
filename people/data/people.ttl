@@ -8,7 +8,7 @@
 
 @prefix fibo-fnd-aap-ppl: <http://www.omg.org/spec/EDMC-FIBO/FND/AgentsAndPeople/People/> .
 
-@prefix : <http://localhost:50300/people/> .
+@prefix : <http://localhost:50200/people/> .
 
 :arthurlewis a fibo-fnd-aap-ppl:Person ;
   rdfs:label "Arthur Lewis" ;

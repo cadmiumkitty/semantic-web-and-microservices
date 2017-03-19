@@ -10,7 +10,7 @@
 @prefix fibo-fnd-rel-rel: <http://www.omg.org/spec/EDMC-FIBO/FND/Relations/Relations/> .
 @prefix fibo-fnd-agr-ctr: <> .
 
-@prefix : <http://localhost:50300/trades/> .
+@prefix : <http://localhost:50200/trades/> .
 
 :alpha a fibo-fbc-pas-fpas:Trade ;
   rdfs:label "Buy 30 VUKE" ;
