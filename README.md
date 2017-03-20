@@ -20,8 +20,10 @@ Node and NPM are downloaded as part of the build using [frontend-maven-plugin](h
 ## Implementation notes
 
  1. This implementation is following http://projects.spring.io/spring-cloud/
- 1. Config-first approach is used. Location of the configuration server
- is known to clients, rather than discovered from Eureka discovery service.
+ 1. Config-first approach is used. Location of the configuration server is known to clients, rather than discovered from Eureka discovery service.
+ 1. The UI route is manually configured in Zuul
+ 1. Configuration repository is in https://github.com/cadmiumkitty/semantic-web-and-microservices-config
+ 1. An attempt to use [FIBO](http://www.omg.org/spec/EDMC-FIBO/) is made with People, Instrument and Trade data, but it needs a lot of further work to fill the details of the trades. 
 
 ## Building
 
@@ -40,24 +42,16 @@ java -jar zuul/target/semantic-web-and-microservices-zuul-1.0.0-SNAPSHOT.jar
 java -jar zuul/target/semantic-web-and-microservices-trades-1.0.0-SNAPSHOT.jar
 java -jar zuul/target/semantic-web-and-microservices-people-1.0.0-SNAPSHOT.jar
 java -jar zuul/target/semantic-web-and-microservices-instrument-1.0.0-SNAPSHOT.jar
+java -jar zuul/target/semantic-web-and-microservices-ui-1.0.0-SNAPSHOT.jar
 ```
 
 ## Demo sequence for the talk
 
+The talk is in multiple part to cover different aspects of using Semantic Web with microservice based architectures.
+
+### Part 1 that talks about reusing UI components
+
  1. Start the apps
  1. Open the web app
- 1. Open the trade blotter
- 1. Navigate to trade
- 1. Navigate to instrument
- 1. Navigate to client
-
-## Todo
-
- 1. Project set up - DONE
- 1. Eureka - DONE
- 1. Zuul - DONE
- 1. Config - DONE
- 1. Trades - DONE
- 1. Clients - DONE
- 1. Instruments - DONE
- 1. UI - TODO
+ 1. Click refresh button
+ 1. Talk through the mechanics and look at the data supplied by individual services
