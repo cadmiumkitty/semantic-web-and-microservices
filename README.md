@@ -23,7 +23,7 @@ Node and NPM are downloaded as part of the build using [frontend-maven-plugin](h
  1. Config-first approach is used. Location of the configuration server is known to clients, rather than discovered from Eureka discovery service.
  1. The UI route is manually configured in Zuul
  1. Configuration repository is in https://github.com/cadmiumkitty/semantic-web-and-microservices-config
- 1. An attempt to use [FIBO](http://www.omg.org/spec/EDMC-FIBO/) is made with People, Instrument and Trade data, but it needs a lot of further work to fill the details of the trades. 
+ 1. An attempt to use [FIBO](http://www.omg.org/spec/EDMC-FIBO/) is made with People, Instrument and Trade data, but it needs a lot of further work to fill the details of the trades.
 
 ## Building
 
@@ -55,3 +55,7 @@ The talk is in multiple part to cover different aspects of using Semantic Web wi
  1. Open the web app
  1. Click refresh button
  1. Talk through the mechanics and look at the data supplied by individual services
+
+## Further work
+
+ 1. Investigate how default Spring stores can be used with RDF data.
