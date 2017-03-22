@@ -5,7 +5,7 @@ import { Layout, Content, Header, Grid, Cell, IconButton, Card, CardTitle, CardT
 
 class Application extends Component {
 
-	onSync = (element, index, e) => {
+	onSync = (e) => {
         e.preventDefault();
         const { dispatch } = this.props;
         dispatch(instrumentDataRequested())
