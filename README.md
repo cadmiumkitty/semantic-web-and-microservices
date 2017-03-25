@@ -59,3 +59,5 @@ The talk is in multiple part to cover different aspects of using Semantic Web wi
 ## Further work
 
  1. Investigate how default Spring stores can be used with RDF data.
+ 1. Using ISINs as unique identifiers is not a good idea, will need to switch to GUIDs.
+ 1. Adding reasoning service that can grab distributed data across multiple microservices is a good idea.
