@@ -8,7 +8,7 @@
 
 @prefix fibo-fbc-fi-fi: <http://www.omg.org/spec/EDMC-FIBO/FBC/FinancialInstruments/FinancialInstruments/> .
 
-@prefix : <http://localhost:50200/instruments/> .
+@prefix : <http://localhost:50300/instruments/> .
 
 :IE00B810Q511 a fibo-fbc-fi-fi:EquityInstrument ;
   rdfs:label "VUKE" ;
