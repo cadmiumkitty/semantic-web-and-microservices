@@ -39,10 +39,10 @@ You'll need to start all services that are developed as part of the ecosystem: E
 java -jar eureka/target/semantic-web-and-microservices-config-1.0.0-SNAPSHOT.jar
 java -jar eureka/target/semantic-web-and-microservices-eureka-1.0.0-SNAPSHOT.jar
 java -jar zuul/target/semantic-web-and-microservices-zuul-1.0.0-SNAPSHOT.jar
-java -jar zuul/target/semantic-web-and-microservices-trades-1.0.0-SNAPSHOT.jar
-java -jar zuul/target/semantic-web-and-microservices-people-1.0.0-SNAPSHOT.jar
-java -jar zuul/target/semantic-web-and-microservices-instrument-1.0.0-SNAPSHOT.jar
-java -jar zuul/target/semantic-web-and-microservices-ui-1.0.0-SNAPSHOT.jar
+java -jar trades/target/semantic-web-and-microservices-trades-1.0.0-SNAPSHOT.jar
+java -jar people/target/semantic-web-and-microservices-people-1.0.0-SNAPSHOT.jar
+java -jar instruments/target/semantic-web-and-microservices-instrument-1.0.0-SNAPSHOT.jar
+java -jar ui/target/semantic-web-and-microservices-ui-1.0.0-SNAPSHOT.jar
 ```
 
 ## Demo sequence for the talk
