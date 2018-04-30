@@ -8,7 +8,7 @@
 
 @prefix fibo-fbc-pas-fpas: <http://www.omg.org/spec/EDMC-FIBO/FBC/ProductsAndServices/FinancialProductsAndServices/> .
 @prefix fibo-fnd-rel-rel: <http://www.omg.org/spec/EDMC-FIBO/FND/Relations/Relations/> .
-@prefix fibo-fnd-agr-ctr: <> .
+@prefix fibo-fnd-agr-ctr: <https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/> .
 
 @prefix : <http://localhost:50500/trades/> .
 
